@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Отзыв о сайте</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О авторе</a>
+        <a href="australia.html">Австралия</a>
+        <a href="austria.html">Австрия</a>
+        <a href="form.html">Отзыв</a>
+    </nav>
+</header>
+<main>
+    <div class="row">
+        <div class="card w-100">
+            <form action="action.php" method="post">
+                <div class="review_container">
+                    <label for="name"><b>ФИО</b></label>
+                    <input type="text" placeholder="Иванов Иван Иванович" id="name" name="name" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="email@*.*" id="email" name="email" required>
+
+                    <label for="phone"><b>Телефон</b></label>
+                    <input type="tel" placeholder="+7 900 000 00 00" id="phone" name="phone" required>
+
+                    <label for="time"><b>Время</b></label>
+                    <input type="time"  id="time" name="time" required>
+
+                    <label for="date"><b>Дата</b></label>
+                    <input type="date"  id="date" name="date" required>
+
+                    <br>
+                    <br>
+
+                    <label for="adds_for_site"><b>Чего вам не хватает на сайте</b></label>
+                    <div class="inner_padding_container" id="adds_for_site">
+                        <label class="container">Не все страны
+                            <input name="more_pages" type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Мало информации о стране
+                            <input name="about_country" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Нет информации о президенте страны
+                            <input name="president" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Недостаточно интерактивных элементов
+                            <input name="in_elements" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <label for="sex"><b>Ваш пол</b></label>
+                    <div class="inner_padding_container" id="sex">
+                        <label class="container">Мужчина
+                            <input name="sex1" type="radio" checked="checked">
+                            <span class="checkmark" style="border-radius: 50%;"></span>
+                        </label>
+                        <label class="container">Женщина
+                            <input name="sex1" type="radio">
+                            <span class="checkmark" style="border-radius: 50%;"></span>
+                        </label>
+                    </div>
+
+                    <label for="rank"><b>Уровень вашей удовлетворенности сайтом (от 1 до 10)</b></label>
+                    <input type="range" id="rank" name="rank" min="0" max="10">
+
+
+                    <label for="where"><b>Откуда вы узнали о сайте?</b></label>
+                    <select id="where" name="where">
+                        <option value="Делал его на уроке">Делал его на уроке</option>
+                        <option value="Нашел в поиске">Нашел в поиске</option>
+                        <option value="Сказали друзья">Сказали друзья</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label for="additional"><b>Дополнительные комментарии и пожелания</b></label>
+                    <textarea id="additional" name="additional" rows="10" cols="30"></textarea>
+
+
+
+                    <button type="submit">Отправить отзыв</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    &copy;2022 Все права защищены
+</footer>
+</body>
+</html>
