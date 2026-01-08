@@ -1,0 +1,7 @@
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\bin\Debug\GravityBalls.exe.config
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\bin\Debug\GravityBalls.exe
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\bin\Debug\GravityBalls.pdb
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\obj\Debug\GravityBalls.csproj.AssemblyReference.cache
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\obj\Debug\GravityBalls.csproj.CoreCompileInputs.cache
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\obj\Debug\GravityBalls.exe
+Z:\Desktop\projects\studying\sites\C#\GravityBalls C#-9\obj\Debug\GravityBalls.pdb
